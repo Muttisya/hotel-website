@@ -1,0 +1,156 @@
+body{
+    background-color: #36f1cc;
+    font-size:16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    background-color:#ffffff;
+    margin: 0 auto;
+}
+.title{
+    text-transform: uppercase;
+    color:#36f1cc;
+    text-align: left;
+    padding: 20px;
+    font-weight:600;
+    font-size: 40px;
+}
+.title:hover{
+    text-decoration:overline;
+    color:#36f1cc;
+    font-weight: 900;
+    transition:5s ease-in-out; 
+
+}
+.top-menu{
+    background-color: #f1365B;
+    overflow:hidden;
+}
+/* Nesting in CSS */
+.top-menu ul li{
+    list-style-type:none;
+    float:left;  
+    border-right: 2px solid #36f1cc;
+    padding:5px 10px;
+}
+.top-menu ul li a{
+    text-decoration:none;
+    color:#36f1cc;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+}
+/* hover effect */
+.top-menu ul li:hover{
+    background-color: #36f1cc;
+}
+/* Hover effect on a child */
+.top-menu ul li:hover a{
+
+    text-decoration: underline;
+    color: #f1365B;
+}
+/* image part */
+/* .sara-image img{
+    width:100%;
+    height: 60vh;
+} */
+.sara-image{
+    background-image: url('./sara-dubler-Koei_7yYtIo-unsplash.jpg');
+    background-size: cover;
+    min-height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.sara-image h2{
+    color: #ffffff;
+    background-color: #f1365B;
+    padding: 32px;
+    opacity: .5;
+    border: 2px solid  #36f1cc;
+}
+.btn{
+    background-color: #ffffff;
+    color: #f1365B;
+    border: 2px solid #f1365B;
+    padding: 8px 32px;
+    border-radius: 10px;
+    cursor: grabbing;
+}
+.btn:hover{
+    background-color: #f1365B;
+    color: #ffffff;
+    transition-duration: .6s;
+}
+    .welcome p{
+        width: 60%;
+        text-align:center;
+        font-weight:500;
+        line-height:32px;
+
+    }
+    .welcome{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .row{
+        display:flex;
+        flex-direction: row;
+    }
+    .row-2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+        .col{
+            max-width: 50%;
+        }
+        .img-fluid{
+            width: 100%;
+            height: auto;
+            object-fit:cover;
+
+
+        }
+        .px-3{
+            padding-left: 32px;
+            padding-right: 32px;
+
+        }
+        .py-4{
+            padding-top: 32px;
+            padding-bottom: 40px;
+        }
+        .text-start{
+            text-align: left!important;
+        }
+        .text-center{
+            text-align:center!important;
+         }  
+
+        .text-end{
+            text-align: right!important;
+        }
+        .credit{
+            background: linear-gradient(45deg,#F1365bd8,#f1365B, #F1365bd8);
+        }
+        .credit p{
+            color:#ffffff;
+            font-size: 24px;
+
+        }
+        .credit:hover{
+            transform: rotate(15deg);
+            transition-duration: .3s;
+
+        }
+        
+        
+    
